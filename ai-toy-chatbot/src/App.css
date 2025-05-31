@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient( 135deg, #ff9a9e, #fad0c4, #fad0c4, #a1c4fd );
+  color: black;
+  font-family: sans-serif;
+}
+
+.App {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.chatbox {
+  border: 2px solid #ff9a9e;
+  padding: 10px;
+  height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: rgba( 255, 255, 255, 0.8 );
+}
+
+.emotion-box {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba( 161, 196, 253, 0.8 );
+  border-radius: 8px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  background-color: rgba( 255, 255, 255, 0.8 );
+  border: 1px solid #fad0c4;
+  color: black;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff9a9e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fad0c4;
+}
+
+.history {
+  margin-top: 20px;
+  background: rgba( 161, 196, 253, 0.8 );
+  padding: 10px;
+  border-radius: 6px;
+}
